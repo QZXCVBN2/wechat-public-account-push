@@ -28,7 +28,7 @@ export const USER_CONFIG = {
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -41,7 +41,7 @@ export const USER_CONFIG = {
     poetry: false,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oGY4X6GALCys1o7qFyPwHZXjO1dw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "TVIXPdXcuQ2fLAnyj75YWTBqrpuwHhhC7XAYIT2rJ18",
+      useTemplateId: "jm3_MhJS_TAsRjSgTJOqI0Ar-jaY2k_uPIFF_U-R0XQ",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -92,6 +92,17 @@ export const USER_CONFIG = {
         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},
+        {"keyword": "lover_prattle", contents: [
+232
+        "入目无别人，四下皆是你",
+233
+        "看尽千山，落笔皆是你",
+234
+        "你是乍见之欢  更是久处不厌",
+235
+        "平生没什么热枕 你却是一生",
+236
+      ]},
       ]
     },
     {
