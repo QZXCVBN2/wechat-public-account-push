@@ -30,7 +30,7 @@ export const USER_CONFIG = {
     // 金山每日一句
     CIBA: false,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
@@ -93,15 +93,10 @@ export const USER_CONFIG = {
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},
         {"keyword": "lover_prattle", contents: [
-232
         "入目无别人，四下皆是你",
-233
         "看尽千山，落笔皆是你",
-234
         "你是乍见之欢  更是久处不厌",
-235
         "平生没什么热枕 你却是一生",
-236
       ]},
       ]
     },
